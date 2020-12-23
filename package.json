@@ -1,0 +1,25 @@
+{
+  "name": "hyperlint",
+  "version": "0.3.5",
+  "description": "it's like a linter, but more hyper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benfoxall/hyperlint.git"
+  },
+  "keywords": [
+    "Hyper",
+    "Lint",
+    "Worldwide",
+    "Web"
+  ],
+  "author": "Mega Mob (Mike and Ben)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benfoxall/hyperlint/issues"
+  },
+  "homepage": "https://github.com/benfoxall/hyperlint#readme"
+}
