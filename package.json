@@ -2,11 +2,11 @@
   "name": "hyperlint",
   "version": "0.3.5",
   "description": "it's like a linter, but more hyper",
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "index.mjs",
+  "bin": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.js"
+    "start": "node ./index.mjs"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,12 @@
   },
   "homepage": "https://github.com/benfoxall/hyperlint#readme",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "fetch-headers": "^2.0.0",
+    "is-absolute-url": "^3.0.3",
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^2.0.0",
+    "ora": "^5.1.0",
+    "url-join": "^4.0.1",
+    "user-agents": "^1.0.559"
   }
 }
