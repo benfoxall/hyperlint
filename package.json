@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./index.mjs",
-    "build": "esbuild index.mjs --bundle --outfile=dist.js --platform=node"
+    "prepare": "esbuild index.mjs --bundle --outfile=dist.js --platform=node"
   },
   "repository": {
     "type": "git",
