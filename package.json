@@ -2,11 +2,12 @@
   "name": "hyperlint",
   "version": "0.4.0",
   "description": "it's like a linter, but more hyper",
-  "main": "index.mjs",
-  "bin": "index.mjs",
+  "main": "dist.js",
+  "bin": "dist.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.mjs"
+    "start": "node ./index.mjs",
+    "build": "esbuild index.mjs --bundle --outfile=dist.js --platform=node"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,9 @@
     "url": "https://github.com/benfoxall/hyperlint/issues"
   },
   "homepage": "https://github.com/benfoxall/hyperlint#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.8.28",
     "fetch-headers": "^2.0.0",
     "is-absolute-url": "^3.0.3",
     "node-fetch": "^2.6.1",
